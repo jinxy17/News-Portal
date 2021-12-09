@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_explore"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_explore" />
+
+    <item
+        android:id="@+id/navigation_type"
+        android:icon="@mipmap/icon_type"
+        android:title="@string/title_type" />
+
+    <item
+        android:id="@+id/navigation_trend"
+        android:icon="@mipmap/icon_trend"
+        android:title="@string/title_trend" />
+
+    <item
+        android:id="@+id/navigation_knowledge"
+        android:icon="@mipmap/icon_knowledge"
+        android:title="@string/title_knowledge" />
+
+</menu>

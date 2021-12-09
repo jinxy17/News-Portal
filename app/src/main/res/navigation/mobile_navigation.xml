@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_explore">
+
+    <fragment
+        android:id="@+id/navigation_explore"
+        android:name="com.java.jinxuyang.fragment.ExploreFragment"
+        android:label="@string/title_explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/navigation_type"
+        android:name="com.java.jinxuyang.fragment.TypeFragment"
+        android:label="@string/title_type"
+        tools:layout="@layout/fragment_type" />
+    <fragment
+        android:id="@+id/navigation_trend"
+        android:name="com.java.jinxuyang.fragment.TrendFragment"
+        android:label="@string/title_trend"
+        tools:layout="@layout/fragment_trend" />
+    <fragment
+        android:id="@+id/navigation_knowledge"
+        android:name="com.java.jinxuyang.fragment.KnowledgeFragment"
+        android:label="@string/title_knowledge"
+        tools:layout="@layout/fragment_knowledge" />
+</navigation>
